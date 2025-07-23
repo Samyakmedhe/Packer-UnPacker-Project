@@ -1,0 +1,3 @@
+*.class
+lib/ # Or keep if you want to include JARs
+*.pak

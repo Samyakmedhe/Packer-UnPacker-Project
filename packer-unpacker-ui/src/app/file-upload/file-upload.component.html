@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Packer & Unpacker</h2>
+    <input type="file" multiple (change)="onFilesSelected($event)" />
+    <div *ngIf="selectedFiles.length">
+      <p>Selected:</p>
+      <ul>
+        <li *ngFor="let f of selectedFiles">{{ f.name }}</li>
+      </ul>
+    </div>
+    <button (click)="pack()">Pack</button>
+    <button (click)="unpack()">Unpack</button>
+    <p *ngIf="message" [class.error]="!isSuccess">{{ message }}</p>
+  </div>
+  
