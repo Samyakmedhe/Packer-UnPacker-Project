@@ -48,7 +48,6 @@ A full-stack web application for **packing** multiple files into a custom `.pak`
 
 
 
----
 
 ## 🧪 How to Run
 
