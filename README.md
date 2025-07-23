@@ -58,7 +58,7 @@ A full-stack web application for **packing** multiple files into a custom `.pak`
 
    ```bash
    javac -cp ".:lib/*" *.java
-java -cp ".:lib/*" MainServer
+   java -cp ".:lib/*" MainServer
 
 Navigate to packer-unpacker-ui/
 : Install dependencies:
