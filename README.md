@@ -7,12 +7,16 @@ A full-stack web application for **packing** multiple files into a custom `.pak`
 ## 🔧 Technologies Used
 
 ### ⚙️ Backend (Java)
+
 - Java 
 - `HttpServer` from `com.sun.net.httpserver`
 - Apache Commons FileUpload
 - Custom file format handling logic (Packer/Unpacker)
 
 ### 🌐 Frontend (Angular)
+
+<img width="1710" height="985" alt="Screenshot 2025-07-23 at 3 52 17 PM" src="https://github.com/user-attachments/assets/b33e4a1b-88c7-4852-a5de-da459b50ab11" />
+
 - Angular CLI
 - Tailwind CSS for styling
 - File upload via `HttpClient`
@@ -64,3 +68,4 @@ Navigate to packer-unpacker-ui/
 : Run the Angular development server:
 ```bash
     ng serve -o
+
