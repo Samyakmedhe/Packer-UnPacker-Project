@@ -30,12 +30,13 @@ A full-stack web application for **packing** multiple files into a custom `.pak`
 ---
 
 ## 🗂️ Project Structure
+
 Backend/
 ├── MainServer.java
 ├── FileHandler.java
 ├── Packer.java
 ├── Unpacker.java
-└── lib/                  # Apache commons-fileupload JARs
+└── lib/                          # Apache commons-fileupload JARs
 
 packer-unpacker-ui/
 ├── src/
@@ -43,8 +44,6 @@ packer-unpacker-ui/
 │       └── file-upload/
 ├── tailwind.config.js
 └── angular.json
-
-README.md
 
 
 ## 🧪 How to Run
@@ -58,6 +57,7 @@ README.md
    javac -cp ".:lib/*" *.java
    java -cp ".:lib/*" MainServer
 
+### 🖥️ Frontend (Angular)
 Navigate to packer-unpacker-ui/
 : Install dependencies:
 : npm install
